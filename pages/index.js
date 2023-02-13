@@ -22,6 +22,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Translational Research, Web Development</p>
+        <p>
+          For more info, vist{" "}
+          <a href="https://www.linkedin.com/in/xianyi-liang-a52672160/">
+            My LinkedIn Profile
+          </a>
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
